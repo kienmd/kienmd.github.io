@@ -20,100 +20,124 @@ import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Kien Hang",
+  initials: "KH",
+  location: "London, UK",
+  locationLink: "https://www.google.com/maps/place/London",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Medicine and Computer Science graduate with a keen interest in product",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/110916296?s=400&u=811c231ba1b15e40244628bdb0de3206fe3ddfa5&v=4",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "mankien.hang@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/kienmd",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/kien-hang-4b1bba149/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/kienmd",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University College London (UCL)",
+      degree: "Medicine (MBBS) - M.D. equivalent",
+      start: "Sept 2022",
+      end: "Sept 2023",
+      achievement: ""
+    },
+    {
+      school: "University College London (UCL)",
+      degree: "MSc Computer Science",
+      start: "Sept 2022",
+      end: "Sept 2023",
+      achievement: "Achievement: Distinction, Full-ride scholarship"
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Co:Helm Intern (Sequoia, Neo-backed)",      
+      link: "https://www.co-helm.com/",
+      badges: ["Internship"],
+      title: "Product Engineer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "Jul 2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
+      "Fourth hire at Co:Helm, a $3 million seed stage company backed by Neo and Sequoia Capital, focusing on automating the prior authorization process in US healthcare insurance using Large Language Models (LLMs).\n• Managed communication between product and engineering teams, contributing to the successful acquisition of a $3m seed stage investment and a pilot covering 2.4 million American lives.\n• Conducted comprehensive research to prepare a high-impact keynote presentation for the largest prior-authorization conference in the US, resulting in 30% increase in customer interest.\n• Designed and developed a benchmark dataset to evaluate various language learning models, driving strategic decisions to improve product performance.",    },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Hardian Health",
+      link: "https://www.hardianhealth.com/",
+      badges: ["Internship"],
+      title: "Associate Consultant",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "Aug 2022",
+      end: "Oct 2022",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Hardian Health specializes in supporting clinical research and regulatory approval for AI and health-tech products.\n• Directed product strategy for Chest AI radiological devices, focusing on user needs and market demands. Identified essential data for effective use case development.\n• Crafted FDA submission strategies, aligning product features with healthcare regulations to ensure market entry and compliance for AI healthcare startups.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Curv",
+      link: "https://curvlabs.io/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
+      title: "Co-founder",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "Jan 2022",
+      end: "July 2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Kickstart Accelerator Programme Winner \href, supported by Entrepreneur First and Deloitte Ventures. Gathered detailed user stories and performed feature prioritization for prototyping. Utilised agile methodology to iterate on technical and design prototype. Successfully launched the product, achieving 200 sign-ups in the first week.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "NHSx",
+      link: "https://transform.england.nhs.uk/",
+      badges: ["Internship"],
+      title: "Healthcare Team",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "Sept 2019",
+      end: "Dec 2019",
+      description: "Involved in delivering 'Innovator Surgeries', meeting with incoming start-ups to provide advise and information to support to ensure companies are in compliance with all relevant regulations and guidelines and can have their products adopted quickly and easily into the UK healthcare ecosystem. Involved with designing a CRM booking system for healthcare innovators allowing for requests in order to streamline services and allowing for requests to be directed to the relevant teams.",
     },
   ],
   skills: [
+    "Python",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "SQL",
+    "React",
+    "React Native",
+    "Tailwind",
+    "CSS",
   ],
   projects: [
+    {
+      title: "SAMIFO Health",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "hatchlondon.io",
+        href: "https://raisd-h2020.eu/project/samifo-centre-health-centre-for-asylum-seekers-and-refugees/",
+      },
+    },
     {
       title: "Consultly",
       techStack: [
@@ -132,147 +156,48 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "rayTwelve",
       techStack: [
-        "Full Stack Developer",
+        "Side Project",
         "TypeScript",
-        "React",
-        "Node.js",
+        "Next.js",
+        "Vite",
         "GraphQL",
+        "WebRTC",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "hatchlondon.io",
+        href: "https://www.linkedin.com/posts/alexanderljenkins_ai-generativeai-healthcare-ugcPost-7112037998266839041-0fUc?utm_source=share&utm_medium=member_desktop",
       },
     },
     {
-      title: "Evercast",
+      title: "Accenture Hackathon Runner-Up",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AWS",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Accenture Tech Visionaries Runner-Up 4-day technology competition",
+    },
+    {
+      title: "BabyBlues",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "Hatch London Hackathon Winner",
+      logo: ConsultlyLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "hatchlondon.io",
+        href: "https://www.hatchlondon.io/past-hatches",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

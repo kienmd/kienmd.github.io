@@ -1,0 +1,10 @@
+{
+    "ext": "js,jsx,ts,tsx,json",
+    "ignore": ["node_modules", ".next"],
+    "execMap": {
+      "js": "node --experimental-specifier-resolution=node"
+    },
+    "watch": ["app"],
+    "exec": "ts-node src/app/page.tsx"
+  }
+  

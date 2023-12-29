@@ -122,7 +122,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "SAMIFO Health",
+      title: "samifo health",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -136,23 +136,6 @@ export const RESUME_DATA = {
       link: {
         label: "hatchlondon.io",
         href: "https://raisd-h2020.eu/project/samifo-centre-health-centre-for-asylum-seekers-and-refugees/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
       },
     },
     {
@@ -172,8 +155,60 @@ export const RESUME_DATA = {
         href: "https://www.linkedin.com/posts/alexanderljenkins_ai-generativeai-healthcare-ugcPost-7112037998266839041-0fUc?utm_source=share&utm_medium=member_desktop",
       },
     },
+
     {
-      title: "Accenture Hackathon Runner-Up",
+      title: "studentbids",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://consultly.com/",
+      },
+    },
+    {
+      title: "carenet",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://consultly.com/",
+      },
+    },
+    {
+      title: "terrarium",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://consultly.com/",
+      },
+    },
+    {
+      title: "accenture hackathon runner-uo",
       techStack: [
         "HTML",
         "CSS",
@@ -183,7 +218,7 @@ export const RESUME_DATA = {
       description: "Accenture Tech Visionaries Runner-Up 4-day technology competition",
     },
     {
-      title: "BabyBlues",
+      title: "babyblues",
       techStack: [
         "Side Project",
         "TypeScript",

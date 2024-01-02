@@ -144,6 +144,7 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
                 <CardContent className="mt-2 text-xs">{education.achievement}</CardContent>
+                <CardContent className="mt-2 text-xs">{education.extra}</CardContent>
               </Card>
             );
           })}
